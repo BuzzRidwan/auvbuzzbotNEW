@@ -483,7 +483,7 @@ async def play(_, message: Message):
                     # print(e)
                     await lel.edit(
             f"<b>🛑 Flood Wait Error 🛑 \n User {user.first_name} Asisten musik tidak dapat masuk ke grup! Pastikan Asisten musik tidak dalam blokir grup."
-            "\n\natau manual tambahkan @auvbuzzbot ke grup & coba kembali</b>",
+            "\n\natau manual tambahkan @asistenRidwan ke grup & coba kembali</b>",
         )
     try:
         await USER.get_chat(chid)
@@ -759,7 +759,7 @@ async def ytplay(_, message: Message):
                     # print(e)
                     await lel.edit(
             f"<b>🛑 Flood Wait Error 🛑 \n User {user.first_name} Asisten musik tidak dapat masuk ke grup! Pastikan Asisten musik tidak dalam blokir grup."
-            "\n\nOr manual tambahkan @auvbuzzbot ke grup & coba kembali</b>",
+            "\n\nOr manual tambahkan @asistenRidwan ke grup & coba kembali</b>",
         )
     try:
         await USER.get_chat(chid)
@@ -905,7 +905,7 @@ async def deezer(client: Client, message_: Message):
                     # print(e)
                     await lel.edit(
             f"<b>🛑 Flood Wait Error 🛑 \n User {user.first_name} Asisten musik tidak dapat masuk ke grup! Pastikan Asisten musik tidak dalam blokir grup."
-            "\n\nOr manual tambahkan @auvbuzzbot ke grup & coba kembali</b>",
+            "\n\nOr manual tambahkan @asistenRidwan ke grup & coba kembali</b>",
         )
     try:
         await USER.get_chat(chid)
@@ -1043,7 +1043,7 @@ async def jiosaavn(client: Client, message_: Message):
                     # print(e)
                     await lel.edit(
             f"<b>🛑 Flood Wait Error 🛑 \n User {user.first_name} Asisten musik tidak dapat masuk ke grup! Pastikan Asisten musik tidak dalam blokir grup."
-            "\n\nOr manual tambahkan @auvbuzzbot ke grup & coba kembali</b>",
+            "\n\nOr manual tambahkan @asistenRidwan ke grup & coba kembali</b>",
         )
     try:
         await USER.get_chat(chid)
