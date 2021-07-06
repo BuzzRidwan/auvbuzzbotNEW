@@ -28,13 +28,13 @@ def _start(client, message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "Tambahkan bot ke Group 🎧️", url="http://t.me/auvbuzzbot?startgroup=true"
+                        "Tambahkan bot ke Group 🎧️", url="http://t.me/Ridwanmusicbot?startgroup=true"
                     )
                     
                 ],
                 [
                     InlineKeyboardButton(
-                        "Tambahkan Asiten 🎧️", url="http://t.me/asistenmusik2?startgroup=True"
+                        "Tambahkan Asiten 🎧️", url="http://t.me/asistenRidwan?startgroup=True"
                     )
                 ]
             ]
@@ -90,8 +90,8 @@ def map(pos):
     elif(pos==len(tr.HELP_MSG)-1):
         url = f"https://t.me/{SUPPORT_GROUP}"
         button = [
-            [InlineKeyboardButton("➕ AddTambahkan bot ke Group 🎧️", url=f"http://t.me/auvbuzzbot?startgroup=true")],
-            [InlineKeyboardButton("➕ AddTambahkan asisten ke Group 🎧️", url=f"http://t.me/asistenmusik2?startgroup=true")],
+            [InlineKeyboardButton("➕ AddTambahkan bot ke Group 🎧️", url=f"http://t.me/Ridwanmusicbot?startgroup=true")],
+            [InlineKeyboardButton("➕ AddTambahkan asisten ke Group 🎧️", url=f"http://t.me/asistenRidwan?startgroup=true")],
             [InlineKeyboardButton(text = '📲 Updates', url=f"https://t.me/ossuport"),
              InlineKeyboardButton(text = 'REPORT 🧟', url=f"https://t.me/Kabaridevbot_bot")]
             [InlineKeyboardButton(text = '🛠 Creator 🛠', url=f"https://t.me/psycho_syridwan")],
